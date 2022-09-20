@@ -1,0 +1,5 @@
+venv
+*.pyc
+file.pdf
+file.txt
+tf_idf.txt

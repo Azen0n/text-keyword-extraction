@@ -106,7 +106,7 @@ def lemmatize_articles(articles: list[list[str]]) -> list[list[str]]:
     return lemmatized_articles
 
 
-def calculate_tf_idf(lemmatized_articles: list[str]) -> list[dict[str, float]]:
+def calculate_tf_idf(lemmatized_articles: list[list[str]]) -> list[dict[str, float]]:
     """Calculate term frequency for each word in all articles by tf–idf metric.
     Returns list of dictionaries of "term: frequency" in article.
     """
